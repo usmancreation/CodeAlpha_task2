@@ -1,0 +1,10 @@
+# Ignore platform-specific files
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+web/** linguist-vendored
+
+# Force Dart as main language
+*.dart linguist-language=Dart
